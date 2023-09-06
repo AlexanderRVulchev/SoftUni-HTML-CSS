@@ -1,0 +1,21 @@
+table {
+    width: 80%;
+}
+
+table, td, th {
+    border: 1px solid rgb(221, 221, 221);
+}
+
+thead th {
+    text-align: left;
+}
+
+tbody>tr:hover {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255);
+}
+
+table tr:not(:hover):nth-child(odd) td  {
+    background-color: rgb(241, 241, 241);
+}
+
