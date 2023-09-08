@@ -1,0 +1,28 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+body {
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;    
+}
+
+body>p:nth-child(1) {
+    background-color: green;
+}
+
+body>p:nth-child(2) {
+    background-color: orange;
+}
+
+i {
+    color: white;
+}
