@@ -1,0 +1,12 @@
+body {
+    font-family: Helvetica, sans-serif;    
+    background-color: rgb(255, 255, 255);   
+    background: rgb(238, 238, 238); 
+    color: rgb(51, 51, 51);
+    box-sizing: border-box;
+}
+
+article {
+    padding: 0 20%;
+    box-sizing: border-box;
+}
