@@ -1,0 +1,25 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    box-sizing: border-box;
+}
+
+article {
+    display: inline-block;
+    width: 70%;
+    box-sizing: inherit;
+    margin: 1rem;
+}
+
+aside {
+    margin: 1rem;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    box-sizing: inherit;
+}
+
+img {
+    width: 75%;
+}
