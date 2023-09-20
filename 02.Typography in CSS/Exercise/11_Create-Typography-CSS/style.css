@@ -1,0 +1,42 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  Georgia, serif;
+}
+
+table {
+    width: 100%;    
+    border-collapse: collapse;
+}
+
+table thead th {
+    text-align: start;
+    background-color: rgb(204,204,204)
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: rgb(241,241,241)
+}
+
+table tbody tr td, 
+table thead th {
+    width: 33%;
+    border: 1px solid grey;    
+}
+
+blockquote {
+    border-left: 2px solid rgb(221,221,221);
+    font-style: italic;
+}
+
+blockquote p {
+    margin-left: 30px;
+}
+
+.koko {
+    text-align: end;
+}
