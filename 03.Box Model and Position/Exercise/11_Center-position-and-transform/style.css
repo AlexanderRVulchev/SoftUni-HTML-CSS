@@ -1,0 +1,47 @@
+body {
+    background: rgb(238, 238, 238);
+
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    width: 533px;
+    height: 450px;        
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.card div a {
+    background: rgb(0, 153, 0);
+}
+
+.card div h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+.card img {
+    position: absolute;
+    width: 533px;
+    height: 250px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.card div:nth-child(2) {
+    position: absolute;
+    top: 250px;
+    padding: 0 30px;
+}
+
+.card div a {
+    position: absolute;
+    top: 120px;
+    right: 30px;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
