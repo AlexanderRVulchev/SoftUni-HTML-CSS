@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;   
+    margin: 0; 
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: 0 1em;
+    width: 360px;
+    height: 120px;
+    box-shadow: 0 0 10px 10px #CACACA;
+}
+.card h2 {
+    margin: 0.3em 0;
+}
+
+.card p {
+    margin: 0;
+}
