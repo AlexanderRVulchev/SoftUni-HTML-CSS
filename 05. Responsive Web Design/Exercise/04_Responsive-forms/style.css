@@ -1,0 +1,103 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+* {
+    box-sizing: inherit;    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    width: 75px;
+    display: inline-block;
+}
+
+form {
+    width: 450px;
+    margin-top: 50px;    
+    font-weight: bolder;
+}
+
+fieldset {
+    border-radius: 5px;
+    padding: 25px;
+    background-color: #F8F8F8;
+    position: relative;
+    box-shadow: 0 0 3px 3px rgb(180, 180, 180, 0.2);
+}
+
+button p {
+    font-weight: bolder;
+}
+
+fieldset button {
+    padding: 0 20px;
+    border-radius: 5px;
+    background-color: #2D2D2D;
+    color: white;
+    border: none;
+    line-height: 1;
+}
+
+legend span {
+    border: 2px solid #A3A3A3;
+    border-radius: 3px;
+    padding: 8px 100px 8px 15px;
+    background-color: #F8F8F8;
+    position: absolute;
+    left: -2px;
+    top: -20px;
+    box-shadow: 0 0 3px 3px rgb(180, 180, 180, 0.2);
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.input-container i {
+    position: absolute;
+    left: 85px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-container input {
+    padding-left: 30px;    
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+@media (max-width: 1280) {
+    form {
+        width: 40vw;
+    }
+}
+
+@media (orientation: portrait) {
+    .input-container {
+        flex-direction: column;
+    }
+
+    label {
+        align-self: flex-start;
+    }
+
+    .input-container input {
+        width: 400px;        
+    }
+
+    .input-container i {
+        position: absolute;
+        left: 10px;   
+        bottom: 25px;  
+    }
+
+}
