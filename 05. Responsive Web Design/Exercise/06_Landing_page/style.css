@@ -1,0 +1,11 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+@import url(layout/reset.css);
+@import url(layout/typography.css);
+@import url(layout/general-layout.css);
+@import url(layout/header-layout.css);
+@import url(layout/need-a-website-layout.css);
+@import url(layout/card-collections-layout.css);
+@import url(layout/sign-up-layout.css);
+@import url(layout/footer-layout.css);
+@import url(layout/responsive.css);
