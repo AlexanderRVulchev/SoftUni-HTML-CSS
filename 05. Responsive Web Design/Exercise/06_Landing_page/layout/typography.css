@@ -1,0 +1,32 @@
+header .header-title p {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    transform: scaleX(0.5);
+    font-size: small;           
+}
+
+nav ul li a {
+    font-size: small;
+}
+
+.card dt {    
+    font-weight: bold;
+}
+
+.card dd {    
+    color: #535355;
+}
+
+.card p {
+    font-style: italic;    
+}
+
+.card {
+    font-size: small;
+}
+
+.sign-up p {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}

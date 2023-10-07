@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    position: relative;
+}
+
+header nav {
+    flex-grow: 1;    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 1em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.header-title {
+    position: relative;
+}
+
+.header-title h2 {
+    color: purple;
+    margin: 0;        
+}
+
+.header-title p {
+    position: absolute;  
+    margin: 0 -10em;    
+    left: 4.2em;
+    top: 2em;
+}
+
+.nav-toggle-button {
+    display: none;        
+    position: absolute;
+    right: 0;
+    top: 0.7em;    
+}
+
+.nav-toggle-button button {
+    border: none;
+    background: #FAFAFA;
+}

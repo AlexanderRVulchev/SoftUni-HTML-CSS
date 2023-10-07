@@ -1,0 +1,40 @@
+.testimonials {
+    margin-top: 11em;
+}
+
+.our-team h2,
+.testimonials h2 {
+    text-align: center;    
+    margin: 0;
+}
+
+.our-team hr,
+.testimonials hr {
+    width: 4em;
+    border: 1px solid black;
+    margin-bottom: 1.5em;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 28%;    
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 40px;    
+    box-shadow: 0 3px 3px 3px rgb(128, 128, 128, 0.2);
+}
+
+.card dd {
+    margin: 0;    
+}

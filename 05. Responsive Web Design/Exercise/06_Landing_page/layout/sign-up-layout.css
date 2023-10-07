@@ -1,0 +1,31 @@
+.sign-up {
+    background-color: #9767a8;
+    width: 100vw;
+    position: absolute;    
+    left: 0;    
+    height: 9.5em;
+    box-shadow: -5px 0 10px 2px rgb(128, 128, 128, 0.6);
+}
+
+.sign-up p {
+    text-align: center;
+    margin: 0.7em;
+}
+
+.sign-up hr {
+    border: 1px solid black;
+    width: 4em;
+    margin-bottom: 1em;
+}
+
+.sign-up form {
+    margin: 2em 0 2em 0;
+    text-align: center;        
+}
+
+.sign-up form input,
+.sign-up form button {
+    border: 1px solid #9F9F9F;
+    padding: 0.2em 0.6em;
+    border-radius: 3px;
+}

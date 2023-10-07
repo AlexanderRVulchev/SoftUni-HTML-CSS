@@ -1,0 +1,11 @@
+html {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    width: 70vw;
+    margin: 10px auto;    
+    background: #FAFAFA;
+}
+
