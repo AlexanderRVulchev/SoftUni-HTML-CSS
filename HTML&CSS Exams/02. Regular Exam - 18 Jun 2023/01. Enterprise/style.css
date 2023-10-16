@@ -13,6 +13,7 @@ html {
 body {
     max-width: 1440px;
     background-color: #D7D7D7;
+    margin: auto;
 }
 
 main {
